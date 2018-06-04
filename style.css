@@ -1,0 +1,79 @@
+body{
+  background-color:#36454f;
+  color:#FFF;
+  font-family:verdana;
+}
+
+
+.pig-icon{
+  background-color:#FFF;
+  border-radius:75%;
+}
+.jumbotron{
+  padding:-10px,0px,-10px,0px;
+  background-color:#fff;
+    color:#36454f;
+}
+
+.quoteblock{
+  background-color:#454343;
+  color:#fff;
+    border-top-right-radius:10px;
+  padding:0%,50%,0%,50%;
+}
+.calculator button{
+     border-radius: 8px;
+  color: white;
+  background-color: #bbb;
+  margin: 0 4px 10px 8px;
+  height: 40px;
+  width: 50px;
+  box-shadow: 0px 3px 0px 0px #222121, inset -1px -3px 10px 1px #515151;
+}
+#zero{
+    height: 40px;
+  width: 113px;
+}
+#equals{
+    height: 40px;
+  width: 113px;
+}
+#all-clear{
+   background-color:red;
+}
+#clear-entry{
+   background-color:red;
+}
+#memory{
+   color:grey;
+}
+
+footer{
+  background-color:#bbb;
+    color:black;
+  border-radius:5px;
+}
+.fa {
+   padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius:5px
+}
+.fa:hover {
+ opacity:0.7;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+.fa-free-code-camp {
+    background: #55ACEE;
+    color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
