@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Calculator</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0/css/bootstrap.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <head>
+   <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+   <a href="#" class="navbar-brand"><img src="https://cdn2.iconfinder.com/data/icons/black-animal-svg-icons/512/pig_piggy_bank_money_finance-128.png" width="30" height="30" class="d-inline-block align-top pig-icon" alt=""><b>LtP</b></a>
+   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+   <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+         <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+         </li>
+         <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+         </li>
+         <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+         </li>
+         </li>
+         <li class="nav-item">
+            <a class="nav-link disabled" href="#">noodles</a>
+         </li>
+      </ul>
+   </div>
+</nav>
+<!-- Start of calculator -->
+<div class="container calculator">
+   <div class="row">
+      <h4 id="result-field" align="right">0</h4>
+       <h5 id="sum"></h5>
+   </div>
+   <div class="row">
+      <button id="all-clear" onclick="pullVal()">AC</button>
+      <button id="clear-entry" onclick="pullVal()">CE</button>
+      <button id="divide" onclick="pullVal()">%</button>
+      <button id="multiply" onclick="pullVal()">X</button>
+   </div>
+   <div class="row">
+      <button id="seven" onclick="pullVal()">7</button>
+      <button id="eight" onclick="pullVal()">8</button>
+      <button id="nine" onclick="pullVal()">9</button>
+      <button id="subtract" onclick="pullVal()">-</button>
+   </div>
+   <div class="row">
+      <button id="four" onclick="pullVal()">4</button>
+      <button id="five" onclick="pullVal()">5</button>
+      <button id="six" onclick="pullVal()">6</button>
+      <button id="add" onclick="pullVal()">+</button>
+   </div>
+   <div class="row">
+      <button id="three" onclick="pullVal()">3</button>
+      <button id="two" onclick="pullVal()">2</button>
+      <button id="one" onclick="pullVal()">1</button>
+      <button id="decimal" onclick="pullVal()">.</button>
+   </div>
+   <div class="row">
+      <button id="zero" onclick="pullVal()">0</button>
+      <button id="equals">=</button>
+</div>
+<!--End of calculator-->
+<footer class="container-fluid text-center">
+   <div class="container-fluid">
+      <a href="https://www.facebook.com/MorganGalvinPhoto/" class="fa fa-facebook"></a>
+      <a href="https://www.instagram.com/morgangalvinphoto/" class="fa fa-instagram"></a>
+      <a href="https://www.freecodecamp.org/ludwigthepig" class="fa fa-free-code-camp"></a>
+   </div>
+</footer>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
